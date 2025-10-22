@@ -1,0 +1,80 @@
+# -------------------------------
+# Python ML Project .gitignore
+# -------------------------------
+
+# --- Virtual Environment ---
+venv/
+.env/
+.venv/
+env/
+ENV/
+*.env
+*.venv
+
+# --- Python Cache & Bytecode ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# --- Jupyter Notebook Checkpoints ---
+.ipynb_checkpoints/
+
+# --- Logs and Outputs ---
+logs/
+*.log
+*.out
+*.err
+nohup.out
+
+# --- Model Artifacts ---
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.sav
+*.ckpt
+checkpoints/
+models/
+runs/
+
+# --- Data Files ---
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.db
+*.sqlite3
+
+# --- TensorBoard & Experiment Tracking ---
+logs/
+wandb/
+mlruns/
+tensorboard/
+
+# --- System/Editor Files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Build / Distribution ---
+build/
+dist/
+*.bak
+*.tmp
+
+# --- Streamlit Cache ---
+.streamlit/
+.streamlit_cache/
