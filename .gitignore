@@ -33,10 +33,7 @@ logs/
 nohup.out
 
 # --- Model Artifacts ---
-*.h5
 *.hdf5
-*.pkl
-*.joblib
 *.sav
 *.ckpt
 checkpoints/
@@ -44,9 +41,6 @@ models/
 runs/
 
 # --- Data Files ---
-data/
-datasets/
-*.csv
 *.tsv
 *.xlsx
 *.xls
